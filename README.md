@@ -1,29 +1,34 @@
-# Análisis de Precios de Vivienda en la India
+# Indialista: Herramienta para ayudarte a encontrar casa en la India
 
-## Descripción del Proyecto
-Este proyecto se centra en el análisis del coste de los pisos en la India. El objetivo principal es explorar y analizar el precio medio de las viviendas en función de diversas características, como ubicación, tamaño y número de habitaciones, con el fin de obtener una mejor comprensión del mercado inmobiliario en la región.
+## Descripción del proyecto
 
-## Estructura del Proyecto
+**Indialista** es una herramienta diseñada para ayudar a individuos, parejas y familias a encontrar la sociedad y el rango de precios de pisos en la India, según sus necesidades. Este proyecto realiza una exploración exhaustiva del precio medio de los pisos en función de diferentes características, con el objetivo de brindar una guía detallada sobre las opciones disponibles en el mercado inmobiliario indio.
 
-El proyecto está organizado en las siguientes carpetas:
+## Estructura del proyecto
 
-- **Datos**: Contiene el archivo Excel con los datos originales de los precios de las viviendas en la India.
-- **Resultados**: Incluye archivos Excel con los análisis y resultados generados a partir de los datos originales.
-- **Dashboard**: Carpeta destinada a almacenar visualizaciones interactivas o dashboards para una presentación efectiva de los resultados.
+El proyecto está organizado en las siguientes carpetas y archivos:
 
-## Instalación y Requisitos
+- **data/original_data.xlsx**: Archivo con los datos originales de precios de pisos en India, el cual incluye detalles de cada propiedad (ubicación, tamaño, número de habitaciones, baños, antigüedad, etc.).
+- **data/eda_data.xlsx**: Archivo que contiene el análisis exploratorio de datos (EDA), incluyendo estadísticas descriptivas y visualizaciones iniciales.
+- **data/final_dashboard.xlsx**: Archivo que presenta las tablas dinámicas y el dashboard final, destacando insights clave obtenidos durante el análisis.
 
-Para ejecutar este proyecto, solo es necesario tener instalado Excel (o cualquier software que permita abrir y manipular archivos en formato `.xlsx`).
+## Requisitos
+
+Para visualizar y utilizar los archivos proporcionados, es necesario contar con:
+- **Microsoft Excel 2016 o superior**
 
 ## Resultados y Conclusiones
 
-- Los pisos en bloques altos tienden a tener un coste elevado.
-- Las características como ubicación y tamaño impactan significativamente en el precio medio de las viviendas.
-- La tendencia muestra una concentración de precios altos en pisos con mejores servicios y en ubicaciones urbanas estratégicas.
+- Se realizó un análisis exploratorio de datos (EDA) para obtener una visión general de las propiedades de los pisos en India.
+- Se exploraron correlaciones entre distintas variables y el precio de los pisos.
+    - En general, las correlaciones fueron positivas para la mayoría de los casos.
+    - La antigüedad de los pisos mostró una discrepancia importante; los pisos más nuevos no siempre son los más caros.
+    - La mayoría de características como el nivel de lujo, número de baños, habitaciones y superficie tienen una correlación positiva con el precio.
+    - Los áticos o pisos en niveles superiores también presentan una correlación positiva con el precio.
 
-## Próximos Pasos
+## Próximos pasos
 
-A continuación se proponen algunas ideas para la continuación del proyecto:
-
-- Crear un dashboard interactivo que permita identificar de forma visual cuáles son los pisos más rentables para invertir, en función de variables clave como la localización y el tipo de construcción.
-- Realizar un análisis de rentabilidad, calculando el retorno de inversión esperado para cada tipo de propiedad.
+- Desarrollar un dashboard interactivo que permita al usuario:
+    - Ajustar el tiempo de pago de la hipoteca.
+    - Seleccionar y filtrar propiedades según las características deseadas.
+    - Evaluar opciones de pisos según preferencias personalizadas para optimizar la búsqueda de la vivienda ideal.
