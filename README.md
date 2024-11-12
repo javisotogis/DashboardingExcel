@@ -8,9 +8,9 @@
 
 El proyecto está organizado en las siguientes carpetas y archivos:
 
-- **data/original_data.xlsx**: Archivo con los datos originales de precios de pisos en India, el cual incluye detalles de cada propiedad (ubicación, tamaño, número de habitaciones, baños, antigüedad, etc.).
-- **data/eda_data.xlsx**: Archivo que contiene el análisis exploratorio de datos (EDA), incluyendo estadísticas descriptivas y visualizaciones iniciales.
-- **data/final_dashboard.xlsx**: Archivo que presenta las tablas dinámicas y el dashboard final, destacando insights clave obtenidos durante el análisis.
+- **datos/Flats_data.xlsx**: Archivo con los datos originales de precios de pisos en India, el cual incluye detalles de cada propiedad (ubicación, tamaño, número de habitaciones, baños, antigüedad, etc.).
+- **01 Flats_Data_EDA.xlsx**: Archivo que contiene el análisis exploratorio de datos (EDA), incluyendo estadísticas descriptivas y visualizaciones iniciales.
+- **02 Flats_Data_Pivots.xlsx**: Archivo que presenta las tablas dinámicas y el dashboard final, destacando insights clave obtenidos durante el análisis.
 
 ## Requisitos
 
@@ -25,6 +25,18 @@ Para visualizar y utilizar los archivos proporcionados, es necesario contar con:
     - La antigüedad de los pisos mostró una discrepancia importante; los pisos más nuevos no siempre son los más caros.
     - La mayoría de características como el nivel de lujo, número de baños, habitaciones y superficie tienen una correlación positiva con el precio.
     - Los áticos o pisos en niveles superiores también presentan una correlación positiva con el precio.
+	
+- El dashboard **Dashboard 0 - INSIGHTS** muestra unos insights generales de mi base de datos en cuanto al precio medio, superficie y total de viviendas.
+- La categorización de estos valores se ha realizado en función de la media del coste:
+  - Valores por debajo de la media son la **gama Essential**.
+  - Valores entre la media más la desviación estándar son la **gama Smart**.
+  - Valores restantes son la **gama Elite**.
+- Los siguientes tres dashboards corresponden a la aplicación **IndiaLista**, que ayuda a parejas, solteros y familias a buscar pisos en función de sus necesidades:
+  - **Dashboard 1**: permite usar filtros sencillos para que aparezcan los pisos.
+  - **Dashboard 2**: requiere seleccionar la antigüedad del piso y el nivel de lujo (**Luxury**) deseado.
+  - **Dashboard 3**: muestra las opciones de hipoteca disponibles.
+- El tamaño medio de los pisos se ha calculado en base al precio del metro cuadrado y el precio total de venta del piso.
+
 
 ## Próximos pasos
 
